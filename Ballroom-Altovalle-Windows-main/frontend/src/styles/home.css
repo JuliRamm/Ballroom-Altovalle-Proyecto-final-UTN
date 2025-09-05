@@ -1,0 +1,12 @@
+.columnas{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.queesballroom, .altovalle {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display:block;
+}

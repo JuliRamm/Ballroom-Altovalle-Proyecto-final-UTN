@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #ad3233;
+    padding: 16px;
+}
+
+header h1 {
+    color: #ffefef;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+
+
+}
+
+nav {
+    background-color: #cb4e47;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: #ffefef;
+    text-decoration: underline;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #ba1e23;
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: #ba1e23;
+}
+
+main {
+    background-color: #cb4e47;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: black;
+    position: relative;
+    justify-content: center;
+
+}
+
+.carousel-inner>.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 32rem;
+    object-fit: scale-down;
+    display: block;
+}
+
+h2 {
+    color: black;
+    font-weight: 400;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.historia {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.referente {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.referente:hover {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.referente img {
+    border-radius: 50%;
+    max-width: 50px;
+    box-shadow: 0 0 5px rgba (0, 0, 0, 0, 5);
+    height: 50px;
+
+}
+
+.referente h5,
+.referente h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #ffefef;
+}
+
+.referente h5 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.referente h6 {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.referente p {
+    color: #ffefef;
+    font-size: 10px;
+}
+
+.registros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.registros img {
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    object-fit: scale-down;
+    transition: all 0.5s ease;
+}
+
+.registros img:hover {
+    box-shadow: 10px 10px 40px 20px rgb(243, 181, 181);
+
+}
